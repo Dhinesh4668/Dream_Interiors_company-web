@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c&display=swap');
+:root{
+    --title_font_color: #ee2e31;
+    --link_color: #a1a5a2;
+}
+
+*{
+    margin: 0;
+    scroll-behavior: smooth;
+}
+.right a{
+    padding-left: 15px;
+}
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    /* background-color: honeydew; */
+    height: 60px; 
+}
+.left{
+    text-transform: uppercase;
+    font-size: medium;
+    cursor: pointer;
+}
+.right a{
+    color: var(--link_color);
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    text-decoration: none;
+}
+.left span{
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    font-size: medium;
+    font-weight: bold;
+    color: var(--title_font_color);
+}
+
+.container_home {
+    background-image: url(../assets/banner_img.jpg);
+    height: 70%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.container_home h1{
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    color: red;
+    align-items: center;
+}
+.container_home p {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 50px;
+}
+.container_home button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact_con form {
+    display: flex;
+    flex-direction: column;
+}
