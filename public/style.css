@@ -1,4 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c&display=swap');
+
+
+
+
+
+
 :root{
     --title_font_color: #ee2e31;
     --link_color: #a1a5a2;
@@ -8,6 +14,7 @@
     margin: 0;
     scroll-behavior: smooth;
 }
+
 .right a{
     padding-left: 15px;
 }
@@ -39,30 +46,93 @@ header{
 .container_home {
     background-image: url(../assets/banner_img.jpg);
     height: 70%;
+    width: auto;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
 }
-.container_home h1{
+.container_home {
     display: flex;
-    justify-content: center;
     padding-top: 50px;
-    color: red;
     align-items: center;
+    padding-left: 20px;
 }
-.container_home p {
-    display: flex;
-    justify-content: center;
-    padding-bottom: 50px;
-}
-.container_home button{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
 .contact_con form {
     display: flex;
     flex-direction: column;
+}
+
+.banner_text span{
+    display: flex;
+    flex-direction: column;
+    color: #ee2e31;
+    margin-bottom: 25px;
+    
+}
+.cover_btn{
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    height: 60px;
+    width: 250px;
+    background-color: #ee2e31;
+    align-items: center;
+    margin-bottom: 50px;
+    border-radius: 10px;
+}
+/* scroling property */
+.scroll_img{
+    display: flex;
+    flex-direction: row;
+}
+.fotter_container{
+    background-color: black;
+}
+/* about */
+.About{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+
+
+/* services */
+.services{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.services h1{
+    margin: 10px;
+}
+.services img{
+    flex-direction: row;
+    height: fit-content;
+    width: auto;
+}
+
+
+/* contact */
+.contact_con h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 26px;
+}
+
+.contact_con input{
+    width: 40%;
+
+}
+.contact_con form {
+    padding: 20px;
+}
+.contact_con textarea{
+    display: flex;
+    flex-direction: row;
+    width: 40%;
 }
